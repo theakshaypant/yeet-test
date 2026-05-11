@@ -22,7 +22,7 @@ spec:
 
     For each issue found, provide an inline review comment on the specific file and line.
     Use COMMENT for informational reviews, REQUEST_CHANGES for blocking issues.
-    If the code looks good, use APPROVE.
+    Do NOT use APPROVE — always use COMMENT even if the code looks good.
 
     ## Changed files
     {{ pull_request_files }}

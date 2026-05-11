@@ -3,7 +3,7 @@ kind: Agent
 metadata:
   name: triage
   annotations:
-    agent.tekton.dev/on-event: "[issues, issue_comment]"
+    agent.tekton.dev/on-event: "issue_comment"
     agent.tekton.dev/on-comment: "/triage"
     agent.tekton.dev/result-hooks: "true"
 spec:
